@@ -1,0 +1,44 @@
+.Email{
+    
+    background-color: aliceblue;
+    margin: auto;
+    width: 70%;
+    padding: 30px;
+    border-top: 40px solid #3d3d44 ;
+    border-radius: 20px;
+    text-decoration: none;
+    
+ }
+ .emailjs{
+    margin-top: 100px;
+ }
+ #EM{
+     margin: 40px;
+ }
+ .Email h1{
+     text-align: center;
+     text-transform: uppercase;
+ }
+ 
+ .Email input{
+     width: 70%;
+     border-radius: 10px;
+     outline: none;
+     padding-left: 5px;
+     padding: 7px;
+     font-family: sans-serif;
+ }
+ .Email textarea{
+     width: 100%;
+ }
+ #send{
+    cursor: pointer;
+     background-color: #0917d9;
+     text-align: left;
+     padding: 10px;
+     width: fit-content;
+     padding-left: 20px;
+     padding-right: 20px;
+     border-radius: 10px;
+     color: #fff;
+ }

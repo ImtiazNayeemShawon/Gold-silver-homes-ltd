@@ -1,0 +1,199 @@
+.Container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(7, 46, 40, 1) 45%,
+    rgba(0, 212, 255, 1) 99%
+  );
+  height: 75vh;
+}
+.Container .Intro-text {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.Container .Intro-text h1 {
+  font-size: 70px;
+  color: #fff;
+}
+.Container .Intro-text p {
+  color: #ffffff;
+  font-size: 20px;
+}
+.Container .Intro-text span {
+  color: rgb(56, 37, 37);
+  font-weight: 500;
+}
+.Counter-div {
+  display: flex;
+}
+.Container .Intro-text .Count {
+  text-align: center;
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 20px;
+}
+.Container .Intro-img img {
+  width: 400px;
+  height: 500px;
+  margin-top: 200px;
+  margin-left: 100px;
+  border-radius: 10px;
+  border-top-left-radius: 90px 90px;
+  border-top-right-radius: 10px 20px;
+}
+.Running,
+.Upcoming,
+.Complete {
+  color: #fffffe;
+  padding: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.Upcoming {
+  margin-left: 100px;
+}
+.Complete {
+  margin-left: 200px;
+}
+.Home {
+  margin: 0;
+}
+* {
+  text-decoration: none;
+}
+.Intro h2 {
+  padding-top: 60px;
+  color: aliceblue;
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Bebas Neue", cursive;
+}
+.Intro h1 {
+  color: aliceblue;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Bebas Neue", cursive;
+  margin-top: 30px;
+}
+
+.Sold-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+
+#Select {
+  color: aliceblue;
+}
+.Find {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: #294230;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.Find select {
+  background-color: #fcf8e8;
+  color: #2c3639;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+}
+.Home {
+  padding-bottom: 20%;
+}
+.places {
+  padding: 30px;
+}
+.places h1 {
+  color: #2c3639;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgb(59, 59, 54);
+}
+.show-place img {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+}
+.show-place {
+  margin: 10px;
+  background-color: #294230;
+  padding: 10px;
+  border-radius: 10px;
+  color: #f0f0f7;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.show-place span {
+  text-transform: uppercase;
+}
+#type {
+  text-align: center;
+  font-size: 20px;
+  color: #acdae7;
+}
+.view {
+  background-color: #4d7458;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 600px) {
+  select {
+    width: 60px;
+  }
+  .show-place {
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+    margin: auto;
+  }
+  .Container .Intro-img img {
+    display: none;
+  }
+  .show-place {
+    margin-top: 10px;
+    margin-left: 100px;
+    background-color: #294230;
+    border-radius: 10px;
+    color: #f0f0f7;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .places {
+    padding: 0px;
+  }
+  .Container .Intro-text .Count {
+    text-align: center;
+    background-color: #fff;
+    width: 100px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 20px;
+  }
+}
