@@ -20,7 +20,7 @@ export default function() {
   <Container className="emailjs">
     <div id='EM' className='Email shadow-2xl'>
       <h1>Send e-mail</h1>
-      <h6>Get your all information by email</h6>
+      
     <form ref={form} onSubmit={sendEmail}>
       <p>Your Name</p>
       <input type="text" name="user_name" /> <br/>

@@ -1,66 +1,44 @@
-.about-section{
-    display: grid;
-    align-content: center;
-    margin-top: 50px;
-    place-items: center;
+.About-section {
+  margin-top: 100px;
+  padding: 30px;
 }
-*, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  .column {
-    place-items: center;
-    float: left;
-    width: 40%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
-  
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-  }
-  
-  .about-section {
-    padding: 50px;
-    text-align: center;
-    background-color: #474e5d;
-    color: white;
-  }
-  
-  .container {
-    padding: 0 16px;
-  }
-  
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .title {
-    color: grey;
-  }
-  
-  .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: rgb(47, 5, 161);
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-  }
-  
-  .button:hover {
-    background-color: rgb(1, 36, 189);
-  }
-  
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
+.About-section p {
+  font-size: 15px;
+}
+.Profile {
+    margin-top: 50px;
+  display: grid;
+  grid-gap: 15px;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  text-align: center;
+}
+.Profile div h1{
+text-align: center;
+font-size: 25px;
+font-weight: 700;
+font-family: sans-serif;
+color: rgb(178, 57, 226);
+}
+.Profile div h2{
+    color: #343638;
+    font-weight: 600;
+    font-size: 20px;
+}
+.Profile div p{
+    color: #343638;
+    font-weight: 600;
+    font-size: 15px;
+}
+.Profile div{
+    box-sizing: border-box;
+    background-color: #dae3eb;
+    padding: 30px;
+    border-radius: 20px;
+    height: 500px;
+}
+.Profile div img{
+width: 300px;
+height: 300px;
+border-radius: 10px;
+}

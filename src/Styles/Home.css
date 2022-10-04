@@ -47,23 +47,29 @@
   border-top-left-radius: 90px 90px;
   border-top-right-radius: 10px 20px;
 }
-.Running,
-.Upcoming,
-.Complete {
-  color: #fffffe;
+.slide-container div h1{
+  text-align: center;
+  color: #f7f7e8;
   padding: 20px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
   border-radius: 10px;
   font-family: sans-serif;
   font-weight: 700;
+  background-color: #3b3b37;
+  
+  
 }
-
-.Upcoming {
-  margin-left: 100px;
+.slide-container{
+  margin-top: 100px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  place-items: center;
 }
-.Complete {
-  margin-left: 200px;
+.slide-container div div{
+  border-radius: 10px;
+ 
 }
 .Home {
   margin: 0;
@@ -178,13 +184,14 @@
   }
   .show-place {
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 30px;
     background-color: #294230;
     border-radius: 10px;
     color: #f0f0f7;
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  
   .places {
     padding: 0px;
   }
@@ -195,5 +202,23 @@
     height: 70px;
     margin: 10px;
     border-radius: 20px;
+  }
+  .Container .Intro-text {
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+  }
+  .Container {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(7, 46, 40, 1) 45%,
+      rgba(0, 212, 255, 1) 99%
+    );
+    height: auto;
   }
 }

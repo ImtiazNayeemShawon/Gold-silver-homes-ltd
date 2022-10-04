@@ -22,33 +22,18 @@ export default function Footer() {
         <div className="Contact">
           <h1>Contact</h1>
           <ul>
-            <li>Phone:01745927***</li>
-            <li>Email:Example@gmail.com</li>
+            <li>Phone:+8801713-026500</li>
+            <li>Email:silverdevelopersltd@gmail.com</li>
             <li>tel:9995588</li>
-            <li>Adress:Cumilla</li>
-            <li>Massege</li>
+            <li>Adress:Silver Dream- Ground Floor, 208 Shahid Samsul Haq Sarak, Jhawtala, Cumilla.</li>
+            <Link to="Contact">Contact</Link>
           </ul>
         </div>
-        <div className="Important">
-          <ul>
-            <li>
-              <Link to="/">Demo </Link>
-            </li>
-            <li>
-              <Link to="/">Demo </Link>
-            </li>
-            <li>
-              <Link to="/">Demo </Link>
-            </li>
-            <li>
-              <Link to="/">Demo </Link>
-            </li>
-          </ul>
-        </div>
+
         <div className="News">
           <h1>News</h1>
           <p>
-            old Silver homes Ltd. a fast growing real estate company commenced
+            Gold Silver homes Ltd. a fast growing real estate company commenced
             its journey in 2011; since then it has emerged as one of the most
             flourishing real estate developers in the country. Silver Developers
             Ltd. dedication to the work by the skilled employees. Silver

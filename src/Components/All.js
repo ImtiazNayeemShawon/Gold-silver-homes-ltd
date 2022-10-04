@@ -27,11 +27,11 @@ function All() {
           <Stack spacing={2} direction="row"></Stack>
         </div>
       </div>
-      <div className="places">
+      <div className="places " >
       <h1> All projects here</h1> 
         <Grid container spacing={0}>
           <Grid item md={3}>
-            <div className="show-place shadow-2xl ">
+            <div className="show-place shadow-2xl animate__animated animate__lightSpeedInRight ">
               <img src={Place} alt="place" />
               <p id="type">Appartment</p>
               <p>
@@ -56,13 +56,13 @@ function All() {
                 <Check />
               </span>{" "}
               <span>Kitchen:1</span>
-              <div className="view shadow-lg shadow-indigo-500/40">
+              <div className="view shadow-lg shadow-indigo-500/40 animate__animated animate__lightSpeedInRight ">
                 <Link to="property-1">view</Link>
               </div>
             </div>
           </Grid>
           <Grid item md={3}>
-            <div className="show-place shadow-2xl ">
+            <div className="show-place shadow-2xl   animate__animated animate__lightSpeedInRight ">
               <img src={Place4} alt="place" />
               <p id="type">Appartment</p>
               <p>
@@ -87,13 +87,13 @@ function All() {
                 <Check />
               </span>{" "}
               <span>Kitchen:3</span>
-              <div className="view shadow-lg shadow-indigo-500/40">
+              <div className="view shadow-lg shadow-indigo-500/40 animate__animated animate__lightSpeedInRight ">
                 <Link to="property-2">view</Link>
               </div>
             </div>
           </Grid>
           <Grid item md={3}>
-            <div className="show-place shadow-2xl ">
+            <div className="show-place shadow-2xl  animate__animated animate__lightSpeedInRight " >
               <img src={Place1} alt="place" />
               <p id="type">Appartment</p>
               <p>
@@ -118,13 +118,13 @@ function All() {
                 <Check />
               </span>{" "}
               <span>Kitchen:1</span>
-              <div className="view shadow-lg shadow-indigo-500/40">
+              <div className="view shadow-lg shadow-indigo-500/40 animate__animated animate__lightSpeedInRight ">
                 <Link to="property-3">view</Link>
               </div>
             </div>
           </Grid>
           <Grid item md={3}>
-            <div className="show-place shadow-2xl ">
+            <div className="show-place shadow-2xl animate__animated animate__lightSpeedInRight  " >
               <img src={Place4} alt="place" />
               <p id="type">Flate</p>
               <p>
@@ -149,7 +149,7 @@ function All() {
                 <Check />
               </span>{" "}
               <span>Kitchen:2</span>
-              <div className="view shadow-lg shadow-indigo-500/40">
+              <div className="view shadow-lg shadow-indigo-500/40 animate__animated animate__lightSpeedInRight " >
                 <Link to="property-4">view</Link>
               </div>
             </div>
@@ -157,7 +157,7 @@ function All() {
           
           <Grid container spacing={0}>
             <Grid item md={3}>
-              <div className="show-place shadow-2xl ">
+              <div className="show-place shadow-2xl  animate__animated animate__lightSpeedInRight " >
                 <img src={Place} alt="place" />
                 <p id="type">Appartment</p>
                 <p>
@@ -182,13 +182,13 @@ function All() {
                   <Check />
                 </span>{" "}
                 <span>Kitchen:1</span>
-                <div className="view shadow-lg shadow-indigo-500/40">
+                <div className="view shadow-lg shadow-indigo-500/40 animate__animated animate__lightSpeedInRight " >
                   <Link to="property-1">view</Link>
                 </div>
               </div>
             </Grid>
             <Grid item md={3}>
-              <div className="show-place shadow-2xl ">
+              <div className="show-place shadow-2xl  animate__animated animate__lightSpeedInRight " >
                 <img src={Place4} alt="place" />
                 <p id="type">Appartment</p>
                 <p>
@@ -213,13 +213,13 @@ function All() {
                   <Check />
                 </span>{" "}
                 <span>Kitchen:3</span>
-                <div className="view shadow-lg shadow-indigo-500/40">
+                <div className="view shadow-lg shadow-indigo-500/40 animate__animated animate__lightSpeedInRight " >
                   <Link to="property-2">view</Link>
                 </div>
               </div>
             </Grid>
             <Grid item md={3}>
-              <div className="show-place shadow-2xl ">
+              <div className="show-place shadow-2xl  animate__animated animate__lightSpeedInRight " >
                 <img src={Place1} alt="place" />
                 <p id="type">Appartment</p>
                 <p>
@@ -244,13 +244,13 @@ function All() {
                   <Check />
                 </span>{" "}
                 <span>Kitchen:1</span>
-                <div className="view shadow-lg shadow-indigo-500/40">
+                <div className="view shadow-lg shadow-indigo-500/40 animate__animated animate__lightSpeedInRight " >
                   <Link to="property-3">view</Link>
                 </div>
               </div>
             </Grid>
             <Grid item md={3}>
-              <div className="show-place shadow-2xl ">
+              <div className="show-place shadow-2xl animate__animated animate__lightSpeedInRight " > 
                 <img src={Place4} alt="place" />
                 <p id="type">Flate</p>
                 <p>
@@ -275,7 +275,7 @@ function All() {
                   <Check />
                 </span>{" "}
                 <span>Kitchen:2</span>
-                <div className="view shadow-lg shadow-indigo-500/40">
+                <div className="view shadow-lg shadow-indigo-500/40 animate__animated animate__lightSpeedInRight " >
                   <Link to="property-4">view</Link>
                 </div>
               </div>

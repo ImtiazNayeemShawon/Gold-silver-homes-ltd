@@ -38,7 +38,7 @@ function Navigation(props) {
           </li>
           <li>
             <Link id="Nav" to="All">
-              All project
+              All projects
             </Link>
           </li>
           <li>
@@ -99,7 +99,7 @@ function Navigation(props) {
               </li>
               <li>
                 <Link id="Nav" to="All">
-                  All project
+                  All projects
                 </Link>
               </li>
               <li>
