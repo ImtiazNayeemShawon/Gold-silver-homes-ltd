@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .Footer {
   display: grid;
-  grid-gap: 5px;
+  grid-gap: 15px; 
   place-items: center;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 20px;
@@ -8,11 +10,16 @@
   color: #fff;
   margin-top: 50px;
 }
-.Footer p{
+.Footer {
     font-size: smaller;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(180, 230, 16);
 
 }
 .Footer h1{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+
 }

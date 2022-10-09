@@ -39,7 +39,7 @@ function All() {
                 <LoyaltyIcon /> For sale
               </p>
               <p>
-                <Location /> Location:Kandirpar
+                <Location /> Location:Silver afia garden
               </p>
               <p>
                 <PriceIcon /> price:{price1}$
@@ -183,7 +183,7 @@ function All() {
                 </span>{" "}
                 <span>Kitchen:1</span>
                 <div className="view shadow-lg shadow-indigo-500/40 animate__animated animate__lightSpeedInRight " >
-                  <Link to="property-1">view</Link>
+                  <Link to="property-5">view</Link>
                 </div>
               </div>
             </Grid>
@@ -214,7 +214,7 @@ function All() {
                 </span>{" "}
                 <span>Kitchen:3</span>
                 <div className="view shadow-lg shadow-indigo-500/40 animate__animated animate__lightSpeedInRight " >
-                  <Link to="property-2">view</Link>
+                  <Link to="property-6">view</Link>
                 </div>
               </div>
             </Grid>

@@ -28,7 +28,7 @@ export default function Carrier() {
   return (
     <Container className="emailjs">
       <div id="EM" className="Email-l shadow-2xl">
-        <h1>Find home</h1>
+        <h1>Find Job</h1>
         <h6>Find job by contacting us </h6>
         <form ref={form} onSubmit={sendEmail}>
           <p>1.Your Name</p>

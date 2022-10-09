@@ -45,3 +45,52 @@
      border-radius: 10px;
      color: #fff;
  }
+
+ @media only screen and (max-width: 600px){
+    .Email-l{
+        background-color: aliceblue;
+        margin: auto;
+        width: 90%;
+        padding: 30px;
+        border-top: 40px solid #363233 ;
+        border-radius: 20px;
+        text-decoration: none;
+        
+     }
+     .emailjs{
+        margin-top: 100px;
+     }
+     #EM{
+         margin: 10px;
+     }
+     .Email-l  h1{
+         text-align: center;
+         text-transform: uppercase;
+     }
+     
+     .Email-l input{
+         width: 100%;
+         border-radius: 10px;
+         outline: 1px;
+         background-color: rgb(199, 230, 230);
+         padding-left: 5px;
+        
+         font-family: sans-serif;
+     }
+     .Email-l textarea{
+        border: 2px solid rgb(44, 41, 41);
+         width: 100%;
+         border-radius: 10px;
+     }
+     #send-l{
+        cursor: pointer;
+         background-color: #20f80c;
+         text-align: left;
+         padding: 10px;
+         width: fit-content;
+         padding-left: 20px;
+         padding-right: 20px;
+         border-radius: 10px;
+         color: #fff;
+     }
+ }

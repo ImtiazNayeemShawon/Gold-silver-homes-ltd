@@ -45,7 +45,7 @@ export default function Home() {
             <br /> forget all difficulties in finding a resdence for you
           </p>
           <div className="Counter-div">
-            <div className="Count">
+            <div className="Count"> 
               {" "}
               <span>
                 {Count1}K+ <h6>Products </h6>{" "}
@@ -71,8 +71,9 @@ export default function Home() {
         <div className="Running">
           <h1>Running projects</h1>
           <div>
+         
             <SimpleImageSlider
-              width={400}
+              width={300}
               height={400}
               images={images1}
               showBullets={true}
@@ -84,7 +85,7 @@ export default function Home() {
           <h1>Upcoming projects</h1>
           <div>
             <SimpleImageSlider
-              width={400}
+              width={300}
               height={400}
               images={images2}
               showBullets={true}
@@ -96,7 +97,7 @@ export default function Home() {
           <h1>Complete projects</h1>
           <div>
             <SimpleImageSlider
-              width={400}
+              width={300}
               height={400}
               images={images3}
               showBullets={false}

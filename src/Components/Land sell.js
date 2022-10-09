@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { Container } from "@mui/system";
 import "../Styles/Land.css";
 
 export default function Land() {
@@ -27,23 +26,24 @@ export default function Land() {
   };
 
   return (
-    <Container className="emailjs">
+    <div className="emailjs">
       <div id="EM" className="Email-l shadow-2xl">
         <h1>Find home</h1>
-        <h6>Find your home by contacting us </h6>
         <form ref={form} onSubmit={sendEmail}>
-          <p>1.Your Name 2.Adress</p>
+          <p>Your Name </p>
           <input type="text" name="user_name" /> <br />
           <p>Your Email adress</p>
           <input type="email" name="user_email" />
           <br />
-          <p>Home details</p>
+          <p>Land details</p>
           <textarea name="message" /> <br />
-          <p>Home number:</p>
+          <p>Land price</p>
+          <textarea name="massage" /> <br />
+          <p>Land Location</p>
           <textarea name="massage" /> <br />
           <input id="send-l" type="submit" value="Send" />
         </form>
       </div>
-    </Container>
+    </div>
   );
 }

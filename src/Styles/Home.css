@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 .Container {
   display: grid;
   grid-gap: 10px;
@@ -10,25 +13,37 @@
     rgba(0, 212, 255, 1) 99%
   );
   height: 75vh;
+  font-family: 'Roboto', sans-serif;
+
 }
 .Container .Intro-text {
   margin-top: 100px;
   margin-left: 100px;
+  font-family: 'Roboto', sans-serif;
+
 }
 .Container .Intro-text h1 {
   font-size: 70px;
   color: #fff;
+  font-family: 'Roboto', sans-serif;
+
 }
 .Container .Intro-text p {
   color: #ffffff;
   font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+
 }
 .Container .Intro-text span {
   color: rgb(56, 37, 37);
   font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+
 }
 .Counter-div {
   display: flex;
+  font-family: 'Roboto', sans-serif;
+
 }
 .Container .Intro-text .Count {
   text-align: center;
@@ -37,6 +52,19 @@
   height: 100px;
   margin: 10px;
   border-radius: 20px;
+margin-top: 20px;
+}
+.Container .Intro-text .Count span{
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+}
+.Container .Intro-text .Count span h6{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
 }
 .Container .Intro-img img {
   width: 400px;
@@ -58,7 +86,8 @@
   font-weight: 700;
   background-color: #3b3b37;
   
-  
+  font-family: 'Roboto', sans-serif;
+
 }
 .slide-container{
   margin-top: 100px;
@@ -69,7 +98,8 @@
 }
 .slide-container div div{
   border-radius: 10px;
- 
+  font-family: 'Roboto', sans-serif;
+
 }
 .Home {
   margin: 0;
@@ -82,7 +112,8 @@
   color: aliceblue;
   text-align: center;
   font-size: xx-large;
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Roboto', sans-serif;
+
 }
 .Intro h1 {
   color: aliceblue;
@@ -169,6 +200,8 @@
   font-weight: 800;
 }
 
+
+/*responsive */
 @media only screen and (max-width: 600px) {
   select {
     width: 60px;
@@ -199,13 +232,13 @@
     text-align: center;
     background-color: #fff;
     width: 100px;
-    height: 70px;
+    height: 100px;
     margin: 10px;
     border-radius: 20px;
   }
   .Container .Intro-text {
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 0px;
     text-align: center;
   }
   .Container {
@@ -221,4 +254,8 @@
     );
     height: auto;
   }
+  .slide-container div{
+   width: 70%;
+  }
+ 
 }

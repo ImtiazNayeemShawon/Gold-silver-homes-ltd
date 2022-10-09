@@ -1,5 +1,4 @@
 .Email{
-    
     background-color: aliceblue;
     margin: auto;
     width: 70%;
@@ -42,3 +41,51 @@
      border-radius: 10px;
      color: #fff;
  }
+
+ @media only screen and (max-width: 600px) {
+    .Email{
+        background-color: #fafdff;
+        margin: auto;
+        width: 90%;
+        padding: 50px;
+        border-top: 40px solid #3d3d44 ;
+        border-radius: 20px;
+        text-decoration: none;
+        
+     }
+     .emailjs{
+        margin-top: 10px;
+     }
+     #EM{
+         margin: 10px;
+     }
+     .Email h1{
+         text-align: center;
+         text-transform: uppercase;
+         
+     }
+     
+     .Email input{
+         width: 100%;
+         border-radius: 10px;
+         border: 1px solid #1a1aff;
+         padding-left: 5px;
+         padding: 7px;
+         font-family: sans-serif;
+     }
+     .Email textarea{
+         width: 100%;
+     }
+     #send{
+        cursor: pointer;
+         background-color: #0f1db6;
+         text-align: center;
+         padding: 10px;
+         width: fit-content;
+         padding-left: 50px;
+         padding-right: 50px;
+         border-radius: 10px;
+         color: #fff;
+     }
+    
+  }

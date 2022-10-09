@@ -17,7 +17,7 @@ export default function() {
   };
 
   return (
-  <Container className="emailjs">
+  <div className="emailjs">
     <div id='EM' className='Email shadow-2xl'>
       <h1>Send e-mail</h1>
       
@@ -31,6 +31,6 @@ export default function() {
       <input  id='send' type="submit" value="Send"  />
     </form>
     </div>
-    </Container>
+    </div>
   );
 };

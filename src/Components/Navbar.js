@@ -42,7 +42,7 @@ function Navigation(props) {
             </Link>
           </li>
           <li>
-            <Link id="Nav" to="Gallar">
+            <Link id="Nav" to="Gallary">
               Gallary
             </Link>
           </li>
