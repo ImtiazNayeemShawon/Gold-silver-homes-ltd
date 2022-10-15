@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 
 .Navbar {
-  background-color: #294230;
+  background-color: #1c4ef1;
   color: #fffdfd;
 }
 .Navbar ul li {
@@ -30,7 +30,6 @@
   display: flex;
   margin-left: 20px;
   font-size: 18px;
-  font-weight: 700;
   font-family: "Li Ador Noirrit", sans-serif;
   margin-bottom: 10px;
   text-transform: uppercase;

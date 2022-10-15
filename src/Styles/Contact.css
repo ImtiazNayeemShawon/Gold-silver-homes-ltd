@@ -1,91 +1,57 @@
-.Email{
-    background-color: aliceblue;
-    margin: auto;
-    width: 70%;
-    padding: 30px;
-    border-top: 40px solid #3d3d44 ;
-    border-radius: 20px;
-    text-decoration: none;
+.Main-email{
+    display: grid;
+    grid-gap: 15px;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     
- }
- .emailjs{
-    margin-top: 100px;
- }
- #EM{
-     margin: 40px;
- }
- .Email h1{
-     text-align: center;
-     text-transform: uppercase;
- }
- 
- .Email input{
-     width: 70%;
-     border-radius: 10px;
-     border: 1px solid #3d3d44;
-     padding-left: 5px;
-     padding: 7px;
-     font-family: sans-serif;
- }
- .Email textarea{
-     width: 100%;
- }
- #send{
-    cursor: pointer;
-     background-color: #0917d9;
-     text-align: left;
-     padding: 10px;
-     width: fit-content;
-     padding-left: 50px;
-     padding-right: 50px;
-     border-radius: 10px;
-     color: #fff;
- }
+}
+.emailjs p{
+font-family: "Roboto",sans-serif;
+font-weight: 600;
+text-transform: uppercase;
+font-size: 12px;
+margin-top: 40px;
+}
+.emailjs #EM{
+    width: 500px;
+    padding: 50px;
+    background-color: #e6e1db;
+    border-radius: 10px;
+}
+.emailjs input,textarea{
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(253, 254, 255);
+    outline: none;
+    padding: 10px;
+}
+#send{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+}
+.Intro-email p{
+box-sizing: border-box;
+font-size:15px ;
 
- @media only screen and (max-width: 600px) {
-    .Email{
-        background-color: #fafdff;
-        margin: auto;
-        width: 90%;
-        padding: 50px;
-        border-top: 40px solid #3d3d44 ;
-        border-radius: 20px;
-        text-decoration: none;
-        
-     }
-     .emailjs{
-        margin-top: 10px;
-     }
-     #EM{
-         margin: 10px;
-     }
-     .Email h1{
-         text-align: center;
-         text-transform: uppercase;
-         
-     }
-     
-     .Email input{
-         width: 100%;
-         border-radius: 10px;
-         border: 1px solid #1a1aff;
-         padding-left: 5px;
-         padding: 7px;
-         font-family: sans-serif;
-     }
-     .Email textarea{
-         width: 100%;
-     }
-     #send{
-        cursor: pointer;
-         background-color: #0f1db6;
-         text-align: center;
-         padding: 10px;
-         width: fit-content;
-         padding-left: 50px;
-         padding-right: 50px;
-         border-radius: 10px;
-         color: #fff;
-     }
-    
-  }
+}
+.Intro-email{
+    margin-top: 100px;
+    box-sizing: border-box;
+    width: 500px;
+    padding: 50px;
+    background-color: #e6e1db;
+    border-radius: 10px;
+    place-items: center;
+}
+.Intro-email p::first-line{
+    color: #797972;
+    font-size: 30px;
+    font-weight: 700;
+}

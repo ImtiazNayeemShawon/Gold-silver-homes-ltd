@@ -52,6 +52,16 @@ function Navigation(props) {
             </Link>
           </li>
           <li>
+            <Link id="Nav" to="Rent">
+              For Rent
+            </Link>
+          </li>
+          <li>
+            <Link id="Nav" to="forSell">
+              For Sell
+            </Link>
+          </li>
+          <li>
             <Link id="Nav" to="Carrier">
               Carrier opportunity
             </Link>
@@ -110,6 +120,16 @@ function Navigation(props) {
               <li>
                 <Link id="Nav" to="Sell">
                   Land sell
+                </Link>
+              </li>
+              <li>
+                <Link id="Nav" to="Rent">
+                  For Rent
+                </Link>
+              </li>
+              <li>
+                <Link id="Nav" to="forSell">
+                  For Sell
                 </Link>
               </li>
               <li>

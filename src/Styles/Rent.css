@@ -1,0 +1,74 @@
+.Show-side .Data{
+    margin-top: 50px;
+    display: flex;
+    width: 750px;
+    
+}
+.Show-side{
+    margin-top: 100px;
+}
+.Show-side .Data div {
+    text-align: left;
+    margin-left: 20px;
+    line-height: 30px;
+}
+.Show-side .Data div h1{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    line-height: 40px;
+}
+#tag{
+    background-color: green;
+    padding: 7px;
+    color: wheat;
+    font-family: "Roboto",sans-serif;
+    border-radius: 10px;
+    line-gap-override: 20px;
+    font-size: 10px;
+}
+#price{
+    background-color: #18f318;
+    padding: 7px;
+    color: #af0a0a;
+    font-family: "Roboto",sans-serif;
+    border-radius: 10px;
+    line-gap-override: 20px;
+    font-size: 10px;
+}
+#location{
+    font-family:"Roboto",sans-serif;
+    font-size: larger;
+    color: #097a09;
+}
+#bed, #wash, #size{
+    color: #1f2024;
+    margin: 30px;
+    margin-left: 0px;
+    text-align: center;
+}
+#owner{
+    color: #f7fcfc;
+    font-size: x-small;
+    background-color: #b90707;
+    padding: 7px;
+    margin-top: 30px;
+}
+.Data img{
+    border-radius: 30px;
+}
+.Data{
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.Rent{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.Search-side{
+    margin-top: 100px;
+   
+}

@@ -15,6 +15,8 @@ import Property3 from './Components/prp3';
 import Property4 from './Components/prp4';
 import Property5 from './Components/prp5';
 import Property6 from './Components/prp6';
+import Rent from "./Components/Rent";
+import Sell from "./Components/sell";
 
 import "./App.css";
 
@@ -37,6 +39,8 @@ export default function App() {
           <Route path="all/property-4" element={<Property4/>} />
           <Route path="all/property-5" element={<Property5/>} />
           <Route path="all/property-6" element={<Property6/>} />
+          <Route path="Rent" element={<Rent/>} />
+          <Route path="forSell" element={<Sell/>} />
         </Routes>
        
         <Footer/>

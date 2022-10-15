@@ -1,49 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .Container {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(7, 46, 40, 1) 45%,
-    rgba(0, 212, 255, 1) 99%
-  );
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   height: 75vh;
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 .Container .Intro-text {
   margin-top: 100px;
-  margin-left: 100px;
-  font-family: 'Roboto', sans-serif;
-
+  margin-left: 50px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
 }
 .Container .Intro-text h1 {
-  font-size: 70px;
+  font-size: 40px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 .Container .Intro-text p {
   color: #ffffff;
   font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 .Container .Intro-text span {
   color: rgb(56, 37, 37);
   font-weight: 500;
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 .Counter-div {
   display: flex;
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 .Container .Intro-text .Count {
   text-align: center;
@@ -52,18 +39,18 @@
   height: 100px;
   margin: 10px;
   border-radius: 20px;
-margin-top: 20px;
+  margin-top: 20px;
 }
-.Container .Intro-text .Count span{
+.Container .Intro-text .Count span {
   text-align: center;
   margin-top: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-weight: 800;
 }
-.Container .Intro-text .Count span h6{
+.Container .Intro-text .Count span h6 {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
 }
 .Container .Intro-img img {
@@ -75,7 +62,7 @@ margin-top: 20px;
   border-top-left-radius: 90px 90px;
   border-top-right-radius: 10px 20px;
 }
-.slide-container div h1{
+.slide-container div h1 {
   text-align: center;
   color: #f7f7e8;
   padding: 20px;
@@ -85,21 +72,19 @@ margin-top: 20px;
   font-family: sans-serif;
   font-weight: 700;
   background-color: #3b3b37;
-  
-  font-family: 'Roboto', sans-serif;
 
+  font-family: "Roboto", sans-serif;
 }
-.slide-container{
+.slide-container {
   margin-top: 100px;
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   place-items: center;
 }
-.slide-container div div{
+.slide-container div div {
   border-radius: 10px;
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 .Home {
   margin: 0;
@@ -112,8 +97,7 @@ margin-top: 20px;
   color: aliceblue;
   text-align: center;
   font-size: xx-large;
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 .Intro h1 {
   color: aliceblue;
@@ -200,7 +184,6 @@ margin-top: 20px;
   font-weight: 800;
 }
 
-
 /*responsive */
 @media only screen and (max-width: 600px) {
   select {
@@ -212,7 +195,7 @@ margin-top: 20px;
     display: block;
     margin: auto;
   }
-  .Container .Intro-img img {
+  .Container .Intro-img #side{
     display: none;
   }
   .show-place {
@@ -224,7 +207,7 @@ margin-top: 20px;
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-  
+
   .places {
     padding: 0px;
   }
@@ -254,8 +237,7 @@ margin-top: 20px;
     );
     height: auto;
   }
-  .slide-container div{
-   width: 70%;
+  .slide-container div {
+    width: 70%;
   }
- 
 }
