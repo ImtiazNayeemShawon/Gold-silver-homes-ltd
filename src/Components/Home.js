@@ -6,7 +6,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 
-
 //const Count1 = <CountUp end={20} duration={5} />;
 //const Count2 = <CountUp end={10} duration={5} />;
 //const Count3 = <CountUp end={50} duration={5} />;
@@ -52,18 +51,22 @@ export default function Home() {
     <div>
       <div
         className="Container "
-        style={{ backgroundImage: `url("https://thumbs.dreamstime.com/z/two-big-apartment-houses-night-light-moon-parking-place-97116026.jpg")`,
-        backgroundSize: 'cover',
-        height: '75vh',
-        overflow: 'hidden', }}
+        style={{
+          backgroundImage: `url("https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1596&q=80")`,
+          backgroundSize: "cover",
+          height: "90vh",
+          overflow: "hidden",
+        }}
       >
-        <div className="Intro-img">
-          <img src={Rahman} alt="Rahman villa" id="side"/>
-        </div>
         <div className="Intro-text">
           <h1>In the mindset of exclusivity</h1>
-      
+          <p>
+            Searching for the perfect place to live on? Well, look no further,
+            as bdHousing is here with everything you have been looking for with
+            the largest real estate marketing portal in Bangladesh.
+          </p>
         </div>
+        <div className="Intro-img"></div>
       </div>
       <div className="slide-container">
         <div className="Running">
