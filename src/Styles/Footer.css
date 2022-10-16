@@ -6,7 +6,7 @@
   place-items: center;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 20px;
-  background-color: #202ffc;
+  background-color: #9494b8;
   color: #fff;
   margin-top: 50px;
 }
